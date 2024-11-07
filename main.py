@@ -84,5 +84,5 @@ def main():
         number = input_num(choice)
         design = designs(choice)
         print(design * number)
-        restart = input('Enter "yes" to continue: ').lower()
+        restart = input('Enter "yes" to continue: ').lower().strip()
 main()
